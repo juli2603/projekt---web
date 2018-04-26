@@ -1,0 +1,187 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="imperial_cars">
+        <xs:annotation>
+            <xs:documentation>https://comcar.co.uk/details/select.cfm</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pronajem_aut">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="auta">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="automobil" maxOccurs="unbounded" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="technicke_udaje">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="znacka">
+                                                                    <xs:complexType>
+                                                                        <xs:simpleContent>
+                                                                            <xs:extension base="xs:string">
+                                                                                <xs:attribute type="xs:string" name="hodnoceni" use="optional"/>
+                                                                            </xs:extension>
+                                                                        </xs:simpleContent>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element type="xs:string" name="model"/>
+                                                                <xs:element name="datum_prvni_registrace">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:byte" name="mesic"/>
+                                                                            <xs:element type="xs:short" name="rok"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element type="xs:string" name="kategorie"/>
+                                                                <xs:element type="xs:short" name="rok_vyroby"/>
+                                                                <xs:element name="cena">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:float" name="Cena_za_den"/>
+                                                                            <xs:element type="xs:string" name="mena"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element type="xs:string" name="prevodovka"/>
+                                                                <xs:element name="palivo">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="druh_paliva"/>
+                                                                            <xs:element type="xs:string" name="bio_palivo"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element type="xs:string" name="pocet_najetych_km"/>
+                                                                <xs:element type="xs:string" name="vykon"/>
+                                                                <xs:element type="xs:string" name="objem"/>
+                                                                <xs:element type="xs:byte" name="pocet_sedadel"/>
+                                                                <xs:element type="xs:string" name="pocet_dveri"/>
+                                                                <xs:element type="xs:string" name="emisni_trida"/>
+                                                                <xs:element name="STK">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="mesic" name="mesic"/>
+                                                                            <xs:element type="rok" name="rok"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element type="xs:string" name="barva"/>
+                                                                <xs:element type="xs:string" name="nazev_barvy_vyrobce"/>
+                                                                <xs:element type="xs:string" name="zakladni_typ_paliva"/>
+                                                                <xs:element type="xs:string" name="origin"/>
+                                                                <xs:element type="xs:string" name="dostupnost"/>
+                                                                <xs:element type="xs:string" name="typ_interieru"/>
+                                                                <xs:element type="xs:string" name="parkovaci_senzory"/>
+                                                                <xs:element type="cislo_vozidla" name="cislo_vozidla"/>
+                                                                <xs:element type="xs:string" name="stav_vozidla"/>
+                                                                <xs:element name="spotreba">
+                                                                    <xs:complexType>
+                                                                        <xs:choice maxOccurs="unbounded" minOccurs="0">
+                                                                            <xs:element type="spotreba" name="v_litrech_na_km"/>
+                                                                            <xs:element type="xs:string" name="pro_mistnost"/>
+                                                                        </xs:choice>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element type="xs:string" name="emise_CO2"/>
+                                                                <xs:element type="xs:string" name="trida_energeticke_ucinnosti"/>
+                                                            </xs:sequence>
+                                                            <xs:attribute type="xs:byte" name="id" use="optional"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="vybava">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="komfort_a_interier"/>
+                                                            </xs:sequence>
+                                                            <xs:attribute type="xs:byte" name="id" use="optional"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="bezpecnost">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="bezpecnost" name="popis"/>
+                                                            </xs:sequence>
+                                                            <xs:attribute type="xs:byte" name="id" use="optional"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="media">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="popis"/>
+                                                            </xs:sequence>
+                                                            <xs:attribute type="xs:byte" name="id" use="optional"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="technologie_a_zivotni_prostredi">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="popis"/>
+                                                            </xs:sequence>
+                                                            <xs:attribute type="xs:byte" name="id" use="optional"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="exterier">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="popis"/>
+                                                            </xs:sequence>
+                                                            <xs:attribute type="xs:byte" name="id" use="optional"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="dalsi_funkce">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="popis"/>
+                                                            </xs:sequence>
+                                                            <xs:attribute type="xs:byte" name="id" use="optional"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute type="xs:byte" name="id" use="optional"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="cislo_vozidla">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z0-9]{8}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="bezpecnost">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([a-z])*"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="mesic">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="12"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="rok">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="2008"/>
+            <xs:maxInclusive value="2200"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="spotreba">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="l/km"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
+

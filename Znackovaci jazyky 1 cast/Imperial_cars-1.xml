@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cars_transform.xsl"?>
+<!--https://comcar.co.uk/details/select.cfm-->
+<imperial_cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cars_validator.xsd">
+ <pronajem_aut>
+  <auta>
+
+   <automobil id="01">
+    <technicke_udaje id="1">
+        <znacka hodnoceni="perfektni">Audi</znacka>
+        <model>Audi A3 Cabriolet 1.4 TFSI S line Ambiente 2x Sport</model>
+        <datum_prvni_registrace>
+          <mesic>03</mesic>
+          <rok>2016</rok>
+        </datum_prvni_registrace>
+        <kategorie>Kabriolet</kategorie>
+        <rok_vyroby>2016</rok_vyroby>
+        <cena>
+          <Cena_za_den>32.68</Cena_za_den>
+            <mena>euro</mena>
+        </cena>
+        <prevodovka>Manualni</prevodovka>
+        <palivo>
+          <druh_paliva>Benzin</druh_paliva>
+            <bio_palivo>Podpora E10</bio_palivo>
+        </palivo>
+        <pocet_najetych_km>35 850 km</pocet_najetych_km>
+        <vykon>92 kW (125 PS)</vykon>
+        <objem>1 395 ccm</objem>
+        <pocet_sedadel>4</pocet_sedadel>
+        <pocet_dveri>2/3</pocet_dveri>
+        <emisni_trida>Euro6</emisni_trida>
+        <STK>
+           <mesic>03</mesic>
+           <rok>2019</rok>
+        </STK>
+        <barva>Hneda Metaliza</barva>
+        <nazev_barvy_vyrobce>Belugabraun</nazev_barvy_vyrobce>
+        <zakladni_typ_paliva>Benzin Super</zakladni_typ_paliva>
+        <origin>Nemecke provedeni</origin>
+        <dostupnost>Nyni</dostupnost>
+        <typ_interieru>Alcantara, Cerna</typ_interieru>
+        <parkovaci_senzory>Zadni</parkovaci_senzory>
+        <cislo_vozidla>G8475</cislo_vozidla>
+        <stav_vozidla>Nebourane</stav_vozidla>
+        <spotreba>
+           <v_litrech_na_km>5,6l/100km</v_litrech_na_km>
+            <pro_mistnost>(kombinovana)*</pro_mistnost>
+           <v_litrech_na_km>4,6l/100km</v_litrech_na_km>
+            <pro_mistnost>(mimo mesto)*</pro_mistnost>
+           <v_litrech_na_km>7,2l/100km</v_litrech_na_km>
+            <pro_mistnost>(mesto)*</pro_mistnost>
+        </spotreba>
+        <emise_CO2>127?g/km (kombinovana)*</emise_CO2>
+        <trida_energeticke_ucinnosti>B</trida_energeticke_ucinnosti>
+    </technicke_udaje>
+
+       <vybava id="2">
+        <komfort_a_interier>
+          6XD zrcadla ~ elektricky nastavitelna a vyhrivana
+          9AK comfort klimatizace
+          Q4H sportovnich sedadel vpredu (jako soucast balicku)
+          7P 1 4 - way bederni podporu pro predni sedadla
+          2ZQ multifunkcni kozeny volant v 4-ti paprskovy design
+          3PQ vyskove nastavitelna predni sedadla ~ s podporou vytahovaci stehenni
+          Vyhrivani pro predni sedadla sedadel 4A3
+          QE1 poruchy a zavazadlovy prostor balicek
+          N7U Alcantara / kuze kombinace
+          PS1 sportovni sedadla vpredu
+          PU7 zpetne zrcatko ~ automaticke antireflexni
+          QJ1 hlinikova optika interieru
+          Informacni system 9s 6 ridice s barevnym displejem
+          4R4 Windows ~ elektricky
+          8T 2 rychlost narizeni system
+          4I2 Centralni uzamykaci system s vzdalene klice
+          Loketni operka vpredu 6E3
+          3KC Nerozdeleny zadni sedacku ~ split skladani sedadel
+          QQ4 lehky balicek
+        </komfort_a_interier>
+       </vybava>
+
+       <bezpecnost id="3">
+           <popis>
+          8WB mlhova svetla
+          8 x 1 svetlometu
+          4UP v plne velikosti airbag
+          8N6 svetlo / Destovy senzor
+          3 G 4 dite sedadlo kotveni celni
+          PID detska sedacka upevneni ISOFIX pro sedadlo spolujezdce pomoc pri parkovani 7 x 1, zadni
+          7AA imobilizer ~ elektronicke
+          4 x 1 z bocni zaclonove airbagy predni
+          Indikator tlaku 1 pneumatiky 7 K
+          8 K 4 sviceni
+          3b 4 dite sedadla, na ukotveni ISOFIX a top tether pro vnejsi zadni sedadla
+           </popis>
+       </bezpecnost>
+
+       <media id="4">
+           <popis>
+          Rozhrani Bluetooth 9ZX
+           </popis>
+       </media>
+
+       <technologie_a_zivotni_prostredi id="5">
+           <popis>
+    4GH akusticke celni sklo s pruhem sede barvy
+    G0K 6stupnova manualni prevodovka
+    1N3 elektromechanicky posilovac
+    7L 6 start-stop system
+    7 MM vyfukovy koncept EU6 plus#
+           </popis>
+       </technologie_a_zivotni_prostredi>
+
+       <exterier id="6">
+           <popis>
+    8IG Xenon plus svetlomety
+    3 FT akusticke strisky ~ plne automaticky
+    8SK LED zadni svetla
+    8Q3 automaticke svetlometu
+    0NB S radku napis na predni blatniky
+    Referencni S linie exterieru balicku
+    WSP S linky
+    4ZB Glanzpaket
+    Uzamykatelna ulozna prihradka 1 7s
+    9T 1 podlozky myti vyhrivane trysky ~ predni
+           </popis>
+      </exterier>
+
+      <dalsi_funkce id="7">
+      <popis>
+     C1J lita kola hlinikova v hodne mluvil design hvezd ~ kontrast seda ~ cast lestene ~ velikost 8 J x 18 s pneumatikami 225/40 R18
+    Posilovac rizeni
+    3Q5 zadni operky hlavy
+    1AZ elektronicka kontrola stability (ESC)
+      </popis>
+      </dalsi_funkce>
+          </automobil>
+
+
+      <automobil id="02">
+          <technicke_udaje id="1">
+              <znacka hodnoceni="perfektni">Ferrari</znacka>
+              <model>488 Spider 3.9L V8 670hp Auto</model>
+              <datum_prvni_registrace>
+                  <mesic>09</mesic>
+                  <rok>2017</rok>
+              </datum_prvni_registrace>
+              <kategorie>Spider</kategorie>
+              <rok_vyroby>2014</rok_vyroby>
+              <cena>
+                  <Cena_za_den>88.68</Cena_za_den>
+                  <mena>euro</mena>
+              </cena>
+              <prevodovka>Manualni</prevodovka>
+              <palivo>
+                  <druh_paliva>Benzin</druh_paliva>
+                  <bio_palivo>Podpora E10</bio_palivo>
+              </palivo>
+              <pocet_najetych_km>35 850 km</pocet_najetych_km>
+              <vykon>92 kW (125 PS)</vykon>
+              <objem>1 395 ccm</objem>
+              <pocet_sedadel>4</pocet_sedadel>
+              <pocet_dveri>2/3</pocet_dveri>
+              <emisni_trida>Euro6</emisni_trida>
+              <STK>
+                  <mesic>07</mesic>
+                  <rok>2019</rok>
+              </STK>
+              <barva>Hneda Metaliza</barva>
+              <nazev_barvy_vyrobce>Belugabraun</nazev_barvy_vyrobce>
+              <zakladni_typ_paliva>Benzin Super</zakladni_typ_paliva>
+              <origin>Nemecke provedeni</origin>
+              <dostupnost>Nyni</dostupnost>
+              <typ_interieru>Alcantara, Cerna</typ_interieru>
+              <parkovaci_senzory>Zadni</parkovaci_senzory>
+              <cislo_vozidla>G8475</cislo_vozidla>
+              <stav_vozidla>Nebourane</stav_vozidla>
+              <spotreba>
+                  <v_litrech_na_km>5,6l/100km</v_litrech_na_km>
+                  <pro_mistnost>(kombinovana)*</pro_mistnost>
+                  <v_litrech_na_km>4,6l/100km</v_litrech_na_km>
+                  <pro_mistnost>(mimo mesto)*</pro_mistnost>
+                  <v_litrech_na_km>7,2l/100km</v_litrech_na_km>
+                  <pro_mistnost>(mesto)*</pro_mistnost>
+              </spotreba>
+              <emise_CO2>127?g/km (kombinovana)*</emise_CO2>
+              <trida_energeticke_ucinnosti>B</trida_energeticke_ucinnosti>
+          </technicke_udaje>
+
+          <vybava id="2">
+              <komfort_a_interier>
+                  6XD zrcadla ~ elektricky nastavitelna a vyhrivana
+                  9AK comfort klimatizace
+                  Q4H sportovnich sedadel vpredu (jako soucast balicku)
+                  7P 1 4 - way bederni podporu pro predni sedadla
+                  2ZQ multifunkcni kozeny volant v 4-ti paprskovy design
+                  3PQ vyskove nastavitelna predni sedadla ~ s podporou vytahovaci stehenni
+                  Vyhrivani pro predni sedadla sedadel 4A3
+                  QE1 poruchy a zavazadlovy prostor balicek
+                  N7U Alcantara / kuze kombinace
+                  PS1 sportovni sedadla vpredu
+                  PU7 zpetne zrcatko ~ automaticke antireflexni
+                  QJ1 hlinikova optika interieru
+                  Informacni system 9s 6 ridice s barevnym displejem
+                  4R4 Windows ~ elektricky
+                  8T 2 rychlost narizeni system
+                  4I2 Centralni uzamykaci system s vzdalene klice
+                  Loketni operka vpredu 6E3
+                  3KC Nerozdeleny zadni sedacku ~ split skladani sedadel
+                  QQ4 lehky balicek
+              </komfort_a_interier>
+          </vybava>
+
+          <bezpecnost id="3">
+              <popis>
+                  8WB mlhova svetla
+                  8 x 1 svetlometu
+                  4UP v plne velikosti airbag
+                  8N6 svetlo / Destovy senzor
+                  3 G 4 dite sedadlo kotveni celni
+                  PID detska sedacka upevneni ISOFIX pro sedadlo spolujezdce pomoc pri parkovani 7 x 1, zadni
+                  7AA imobilizer ~ elektronicke
+                  4 x 1 z bocni zaclonove airbagy predni
+                  Indikator tlaku 1 pneumatiky 7 K
+                  8 K 4 sviceni
+                  3b 4 dite sedadla, na ukotveni ISOFIX a top tether pro vnejsi zadni sedadla
+              </popis>
+          </bezpecnost>
+
+          <media id="4">
+              <popis>
+              Rozhrani Bluetooth 9ZX
+              </popis>
+          </media>
+
+          <technologie_a_zivotni_prostredi id="5">
+              <popis>
+              4GH akusticke celni sklo s pruhem sede barvy
+              G0K 6stupnova manualni prevodovka
+              1N3 elektromechanicky posilovac
+              7L 6 start-stop system
+              7 MM vyfukovy koncept EU6 plus#
+              </popis>
+          </technologie_a_zivotni_prostredi>
+
+          <exterier id="6">
+              <popis>
+              8IG Xenon plus svetlomety
+              3 FT akusticke strisky ~ plne automaticky
+              8SK LED zadni svetla
+              8Q3 automaticke svetlometu
+              0NB S radku napis na predni blatniky
+              Referencni S linie exterieru balicku
+              WSP S linky
+              4ZB Glanzpaket
+              Uzamykatelna ulozna prihradka 1 7s
+              9T 1 podlozky myti vyhrivane trysky ~ predni
+              </popis>
+          </exterier>
+
+          <dalsi_funkce id="7">
+              <popis>
+              C1J lita kola hlinikova v hodne mluvil design hvezd ~ kontrast seda ~ cast lestene ~ velikost 8 J x 18 s pneumatikami 225/40 R18
+              Posilovac rizeni
+              3Q5 zadni operky hlavy
+              1AZ elektronicka kontrola stability (ESC)
+              </popis>
+          </dalsi_funkce>
+      </automobil>
+
+
+      <automobil id="03">
+          <technicke_udaje id="1">
+              <znacka hodnoceni="perfektni">Mercedes</znacka>
+              <model>Mercedes-Benz C 300 Cabrio AMG</model>
+              <datum_prvni_registrace>
+                  <mesic>08</mesic>
+                  <rok>2006</rok>
+              </datum_prvni_registrace>
+              <kategorie>Kabriolet</kategorie>
+              <rok_vyroby>2018</rok_vyroby>
+              <cena>
+                  <Cena_za_den>72.64</Cena_za_den>
+                  <mena>euro</mena>
+              </cena>
+              <prevodovka>Manualni</prevodovka>
+              <palivo>
+                  <druh_paliva>Benzin</druh_paliva>
+                  <bio_palivo>Podpora E10</bio_palivo>
+              </palivo>
+              <pocet_najetych_km>35 850 km</pocet_najetych_km>
+              <vykon>92 kW (125 PS)</vykon>
+              <objem>1 395 ccm</objem>
+              <pocet_sedadel>4</pocet_sedadel>
+              <pocet_dveri>2/3</pocet_dveri>
+              <emisni_trida>Euro6</emisni_trida>
+              <STK>
+                  <mesic>03</mesic>
+                  <rok>2019</rok>
+              </STK>
+              <barva>Zulta</barva>
+              <nazev_barvy_vyrobce>Belugabraun</nazev_barvy_vyrobce>
+              <zakladni_typ_paliva>Benzin Super</zakladni_typ_paliva>
+              <origin>Nemecke provedeni</origin>
+              <dostupnost>Nyni</dostupnost>
+              <typ_interieru>Alcantara, Cerna</typ_interieru>
+              <parkovaci_senzory>Zadni</parkovaci_senzory>
+              <cislo_vozidla>G8475</cislo_vozidla>
+              <stav_vozidla>Nebourane</stav_vozidla>
+              <spotreba>
+                  <v_litrech_na_km>5,6l/100km</v_litrech_na_km>
+                  <pro_mistnost>(kombinovana)*</pro_mistnost>
+                  <v_litrech_na_km>4,6l/100km</v_litrech_na_km>
+                  <pro_mistnost>(mimo mesto)*</pro_mistnost>
+                  <v_litrech_na_km>7,2l/100km</v_litrech_na_km>
+                  <pro_mistnost>(mesto)*</pro_mistnost>
+              </spotreba>
+              <emise_CO2>127?g/km (kombinovana)*</emise_CO2>
+              <trida_energeticke_ucinnosti>B</trida_energeticke_ucinnosti>
+          </technicke_udaje>
+
+          <vybava id="2">
+              <komfort_a_interier>
+                  6XD zrcadla ~ elektricky nastavitelna a vyhrivana
+                  9AK comfort klimatizace
+                  Q4H sportovnich sedadel vpredu (jako soucast balicku)
+                  7P 1 4 - way bederni podporu pro predni sedadla
+                  2ZQ multifunkcni kozeny volant v 4-ti paprskovy design
+                  3PQ vyskove nastavitelna predni sedadla ~ s podporou vytahovaci stehenni
+                  Vyhrivani pro predni sedadla sedadel 4A3
+                  QE1 poruchy a zavazadlovy prostor balicek
+                  N7U Alcantara / kuze kombinace
+                  PS1 sportovni sedadla vpredu
+                  PU7 zpetne zrcatko ~ automaticke antireflexni
+                  QJ1 hlinikova optika interieru
+                  Informacni system 9s 6 ridice s barevnym displejem
+                  4R4 Windows ~ elektricky
+                  8T 2 rychlost narizeni system
+                  4I2 Centralni uzamykaci system s vzdalene klice
+                  Loketni operka vpredu 6E3
+                  3KC Nerozdeleny zadni sedacku ~ split skladani sedadel
+                  QQ4 lehky balicek
+              </komfort_a_interier>
+          </vybava>
+
+          <bezpecnost id="3">
+              <popis>
+                  8WB mlhova svetla
+                  8 x 1 svetlometu
+                  4UP v plne velikosti airbag
+                  8N6 svetlo / Destovy senzor
+                  3 G 4 dite sedadlo kotveni celni
+                  PID detska sedacka upevneni ISOFIX pro sedadlo spolujezdce pomoc pri parkovani 7 x 1, zadni
+                  7AA imobilizer ~ elektronicke
+                  4 x 1 z bocni zaclonove airbagy predni
+                  Indikator tlaku 1 pneumatiky 7 K
+                  8 K 4 sviceni
+                  3b 4 dite sedadla, na ukotveni ISOFIX a top tether pro vnejsi zadni sedadla
+              </popis>
+          </bezpecnost>
+
+          <media id="4">
+              <popis>
+              Rozhrani Bluetooth 9ZX
+              I8D MMI� radio
+              UE7 Audi music interface
+              PNU navigacni sada
+              9VD Audi sound system
+              </popis>
+          </media>
+
+          <technologie_a_zivotni_prostredi id="5">
+              <popis>
+              4GH akusticke celni sklo s pruhem sede barvy
+              G0K 6stupnova manualni prevodovka
+              1N3 elektromechanicky posilovac
+              7L 6 start-stop system
+              7 MM vyfukovy koncept EU6 plus#
+              </popis>
+          </technologie_a_zivotni_prostredi>
+
+          <exterier id="6">
+              <popis>
+              8IG Xenon plus svetlomety
+              3 FT akusticke strisky ~ plne automaticky
+              8SK LED zadni svetla
+              8Q3 automaticke svetlometu
+              0NB S radku napis na predni blatniky
+              Referencni S linie exterieru balicku
+              WSP S linky
+              4ZB Glanzpaket
+              Uzamykatelna ulozna prihradka 1 7s
+              9T 1 podlozky myti vyhrivane trysky ~ predni
+              </popis>
+          </exterier>
+
+          <dalsi_funkce id="7">
+              <popis>
+              C1J lita kola hlinikova v hodne mluvil design hvezd ~ kontrast seda ~ cast lestene ~ velikost
+              8 J x 18 s pneumatikami 225/40 R18
+              Posilovac rizeni
+              3Q5 zadni operky hlavy
+              1AZ elektronicka kontrola stability (ESC)
+              </popis>
+          </dalsi_funkce>
+      </automobil>
+
+
+      <automobil id="04">
+          <technicke_udaje id="1">
+              <znacka hodnoceni="perfektni">Volkswagen</znacka>
+              <model>Volkswagen Golf 1.2 TSI BMT Allstar</model>
+              <datum_prvni_registrace>
+                  <mesic>11</mesic>
+                  <rok>2003</rok>
+              </datum_prvni_registrace>
+              <kategorie>Sedan</kategorie>
+              <rok_vyroby>2016</rok_vyroby>
+              <cena>
+                  <Cena_za_den>45.00</Cena_za_den>
+                  <mena>euro</mena>
+              </cena>
+              <prevodovka>Manualni</prevodovka>
+              <palivo>
+                  <druh_paliva>Benzin</druh_paliva>
+                  <bio_palivo>Podpora E10</bio_palivo>
+              </palivo>
+              <pocet_najetych_km>35 850 km</pocet_najetych_km>
+              <vykon>92 kW (125 PS)</vykon>
+              <objem>1 395 ccm</objem>
+              <pocet_sedadel>2</pocet_sedadel>
+              <pocet_dveri>2/3</pocet_dveri>
+              <emisni_trida>Euro6</emisni_trida>
+              <STK>
+                  <mesic>03</mesic>
+                  <rok>2019</rok>
+              </STK>
+              <barva>Hneda Metaliza</barva>
+              <nazev_barvy_vyrobce>Belugabraun</nazev_barvy_vyrobce>
+              <zakladni_typ_paliva>Benzin Super</zakladni_typ_paliva>
+              <origin>Nemecke provedeni</origin>
+              <dostupnost>Nyni</dostupnost>
+              <typ_interieru>Alcantara, Cerna</typ_interieru>
+              <parkovaci_senzory>Zadni</parkovaci_senzory>
+              <cislo_vozidla>G8475</cislo_vozidla>
+              <stav_vozidla>Nebourane</stav_vozidla>
+              <spotreba>
+                  <v_litrech_na_km>5,6l/100km</v_litrech_na_km>
+                  <pro_mistnost>(kombinovana)*</pro_mistnost>
+                  <v_litrech_na_km>4,6l/100km</v_litrech_na_km>
+                  <pro_mistnost>(mimo mesto)*</pro_mistnost>
+                  <v_litrech_na_km>7,2l/100km</v_litrech_na_km>
+                  <pro_mistnost>(mesto)*</pro_mistnost>
+              </spotreba>
+              <emise_CO2>127?g/km (kombinovana)*</emise_CO2>
+              <trida_energeticke_ucinnosti>B</trida_energeticke_ucinnosti>
+          </technicke_udaje>
+
+          <vybava id="2">
+              <komfort_a_interier>
+                  6XD zrcadla ~ elektricky nastavitelna a vyhrivana
+                  9AK comfort klimatizace
+                  Q4H sportovnich sedadel vpredu (jako soucast balicku)
+                  7P 1 4 - way bederni podporu pro predni sedadla
+                  2ZQ multifunkcni kozeny volant v 4-ti paprskovy design
+                  3PQ vyskove nastavitelna predni sedadla ~ s podporou vytahovaci stehenni
+                  Vyhrivani pro predni sedadla sedadel 4A3
+                  QE1 poruchy a zavazadlovy prostor balicek
+                  N7U Alcantara / kuze kombinace
+                  PS1 sportovni sedadla vpredu
+                  PU7 zpetne zrcatko ~ automaticke antireflexni
+                  QJ1 hlinikova optika interieru
+                  Informacni system 9s 6 ridice s barevnym displejem
+                  4R4 Windows ~ elektricky
+                  8T 2 rychlost narizeni system
+                  4I2 Centralni uzamykaci system s vzdalene klice
+                  Loketni operka vpredu 6E3
+                  3KC Nerozdeleny zadni sedacku ~ split skladani sedadel
+                  QQ4 lehky balicek
+              </komfort_a_interier>
+          </vybava>
+
+          <bezpecnost id="3">
+              <popis>
+                  8WB mlhova svetla
+                  8 x 1 svetlometu
+                  4UP v plne velikosti airbag
+                  8N6 svetlo / Destovy senzor
+                  3 G 4 dite sedadlo kotveni celni
+                  PID detska sedacka upevneni ISOFIX pro sedadlo spolujezdce pomoc pri parkovani 7 x 1, zadni
+                  7AA imobilizer ~ elektronicke
+                  4 x 1 z bocni zaclonove airbagy predni
+                  Indikator tlaku 1 pneumatiky 7 K
+                  8 K 4 sviceni
+                  3b 4 dite sedadla, na ukotveni ISOFIX a top tether pro vnejsi zadni sedadla
+              </popis>
+          </bezpecnost>
+
+          <media id="4">
+              <popis>
+              Rozhrani Bluetooth 9ZX
+              </popis>
+          </media>
+
+          <technologie_a_zivotni_prostredi id="5">
+              <popis>
+              4GH akusticke celni sklo s pruhem sede barvy
+              G0K 6stupnova manualni prevodovka
+              1N3 elektromechanicky posilovac
+              7L 6 start-stop system
+              7 MM vyfukovy koncept EU6 plus#
+              </popis>
+          </technologie_a_zivotni_prostredi>
+
+          <exterier id="6">
+              <popis>
+              8IG Xenon plus svetlomety
+              3 FT akusticke strisky ~ plne automaticky
+              8SK LED zadni svetla
+              8Q3 automaticke svetlometu
+              0NB S radku napis na predni blatniky
+              Referencni S linie exterieru balicku
+              WSP S linky
+              4ZB Glanzpaket
+              Uzamykatelna ulozna prihradka 1 7s
+              9T 1 podlozky myti vyhrivane trysky ~ predni
+              </popis>
+          </exterier>
+
+          <dalsi_funkce id="7">
+          <popis>
+              C1J lita kola hlinikova v hodne mluvil design hvezd ~ kontrast seda ~ cast lestene ~ velikost 8 J x 18 s pneumatikami 225/40 R18
+              Posilovac rizeni
+              3Q5 zadni operky hlavy
+              1AZ elektronicka kontrola stability (ESC)
+          </popis>
+          </dalsi_funkce>
+      </automobil>
+
+
+      <automobil id="05">
+          <technicke_udaje id="1">
+              <znacka hodnoceni="perfektni">Opel</znacka>
+              <model>Opel Astra 1.8 Caravan, Navi</model>
+              <datum_prvni_registrace>
+                  <mesic>09</mesic>
+                  <rok>2011</rok>
+              </datum_prvni_registrace>
+              <kategorie>Komb</kategorie>
+              <rok_vyroby>2016</rok_vyroby>
+              <cena>
+                  <Cena_za_den>49.48</Cena_za_den>
+                  <mena>euro</mena>
+              </cena>
+              <prevodovka>Manualni</prevodovka>
+              <palivo>
+                  <druh_paliva>Benzin</druh_paliva>
+                  <bio_palivo>Podpora E10</bio_palivo>
+              </palivo>
+              <pocet_najetych_km>35 850 km</pocet_najetych_km>
+              <vykon>92 kW (125 PS)</vykon>
+              <objem>1 395 ccm</objem>
+              <pocet_sedadel>4</pocet_sedadel>
+              <pocet_dveri>2/3</pocet_dveri>
+              <emisni_trida>Euro6</emisni_trida>
+              <STK>
+                  <mesic>11</mesic>
+                  <rok>2017</rok>
+              </STK>
+              <barva>Cervena</barva>
+              <nazev_barvy_vyrobce>Belugabraun</nazev_barvy_vyrobce>
+              <zakladni_typ_paliva>Benzin Super</zakladni_typ_paliva>
+              <origin>Nemecke provedeni</origin>
+              <dostupnost>Nyni</dostupnost>
+              <typ_interieru>Alcantara, Cerna</typ_interieru>
+              <parkovaci_senzory>Zadni</parkovaci_senzory>
+              <cislo_vozidla>G8475</cislo_vozidla>
+              <stav_vozidla>Nebourane</stav_vozidla>
+              <spotreba>
+                  <v_litrech_na_km>5,6l/100km</v_litrech_na_km>
+                  <pro_mistnost>(kombinovana)*</pro_mistnost>
+                  <v_litrech_na_km>4,6l/100km</v_litrech_na_km>
+                  <pro_mistnost>(mimo mesto)*</pro_mistnost>
+                  <v_litrech_na_km>7,2l/100km</v_litrech_na_km>
+                  <pro_mistnost>(mesto)*</pro_mistnost>
+              </spotreba>
+              <emise_CO2>127?g/km (kombinovana)*</emise_CO2>
+              <trida_energeticke_ucinnosti>B</trida_energeticke_ucinnosti>
+          </technicke_udaje>
+
+          <vybava id="2">
+              <komfort_a_interier>
+                  6XD zrcadla ~ elektricky nastavitelna a vyhrivana
+                  9AK comfort klimatizace
+                  Q4H sportovnich sedadel vpredu (jako soucast balicku)
+                  7P 1 4 - way bederni podporu pro predni sedadla
+                  2ZQ multifunkcni kozeny volant v 4-ti paprskovy design
+                  3PQ vyskove nastavitelna predni sedadla ~ s podporou vytahovaci stehenni
+                  Vyhrivani pro predni sedadla sedadel 4A3
+                  QE1 poruchy a zavazadlovy prostor balicek
+                  N7U Alcantara / kuze kombinace
+                  PS1 sportovni sedadla vpredu
+                  PU7 zpetne zrcatko ~ automaticke antireflexni
+                  QJ1 hlinikova optika interieru
+                  Informacni system 9s 6 ridice s barevnym displejem
+                  4R4 Windows ~ elektricky
+                  8T 2 rychlost narizeni system
+                  4I2 Centralni uzamykaci system s vzdalene klice
+                  Loketni operka vpredu 6E3
+                  3KC Nerozdeleny zadni sedacku ~ split skladani sedadel
+                  QQ4 lehky balicek
+              </komfort_a_interier>
+          </vybava>
+
+          <bezpecnost id="3">
+              <popis>
+                  8WB mlhova svetla
+                  8 x 1 svetlometu
+                  4UP v plne velikosti airbag
+                  8N6 svetlo / Destovy senzor
+                  3 G 4 dite sedadlo kotveni celni
+                  PID detska sedacka upevneni ISOFIX pro sedadlo spolujezdce pomoc pri parkovani 7 x 1, zadni
+                  7AA imobilizer ~ elektronicke
+                  4 x 1 z bocni zaclonove airbagy predni
+                  Indikator tlaku 1 pneumatiky 7 K
+                  8 K 4 sviceni
+                  3b 4 dite sedadla, na ukotveni ISOFIX a top tether pro vnejsi zadni sedadla
+              </popis>
+          </bezpecnost>
+
+          <media id="4">
+              <popis>
+              Rozhrani Bluetooth 9ZX
+              </popis>
+          </media>
+
+          <technologie_a_zivotni_prostredi id="5">
+              <popis> 4GH akusticke celni sklo s pruhem sede barvy
+                  G0K 6stupnova manualni prevodovka
+                  1N3 elektromechanicky posilovac
+                  7L 6 start-stop system
+                  7 MM vyfukovy koncept EU6 plus#
+              </popis>
+          </technologie_a_zivotni_prostredi>
+
+          <exterier id="6">
+              <popis>
+              8IG Xenon plus svetlomety
+              3 FT akusticke strisky ~ plne automaticky
+              8SK LED zadni svetla
+              8Q3 automaticke svetlometu
+              0NB S radku napis na predni blatniky
+              Referencni S linie exterieru balicku
+              WSP S linky
+              4ZB Glanzpaket
+              Uzamykatelna ulozna prihradka 1 7s
+              9T 1 podlozky myti vyhrivane trysky ~ predni
+              </popis>
+          </exterier>
+
+          <dalsi_funkce id="7">
+              <popis>
+              C1J lita kola hlinikova v hodne mluvil design hvezd ~ kontrast seda ~ cast lestene ~ velikost 8 J x 18 s pneumatikami 225/40 R18
+              Posilovac rizeni
+              3Q5 zadni operky hlavy
+              1AZ elektronicka kontrola stability (ESC)
+              </popis>
+          </dalsi_funkce>
+      </automobil>
+
+   </auta>
+ </pronajem_aut>
+</imperial_cars>
+	
+ 
